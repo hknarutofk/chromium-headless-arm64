@@ -10,5 +10,5 @@ docker exec -it "$id" /bin/bash -c " \
         /var/tmp/* \
         rm -rf /tmp/*"
 
-docker commit "$id" registry.cn-hangzhou.aliyuncs.com/hknaruto/chromium-headless-docker-arm64:87.0.4280.66
+docker commit "$id" registry.cn-hangzhou.aliyuncs.com/hknaruto/chromium-headless-arm64:87.0.4280.66
 
